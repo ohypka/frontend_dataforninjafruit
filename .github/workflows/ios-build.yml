@@ -1,9 +1,9 @@
 name: iOS Build Test
 on:
   push:
-    branches: [ main, master ] # Zmień na nazwę swojej gałęzi
+    branches: [ main]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main]
 
 jobs:
   build:
